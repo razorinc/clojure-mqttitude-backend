@@ -12,6 +12,7 @@ You will need [Leiningen][1] 1.7.0 or above installed.
 ## Running
 
 After you cloned the project run:
+
    lein deps
 
 to make sure you downloaded all the dependencies for the project.
