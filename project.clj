@@ -4,8 +4,11 @@
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [hiccup "1.0.3"]
                  [clojurewerkz/machine_head "1.0.0-beta1"]
+                 [ring/ring-jetty-adapter "1.1.6"]
+                 [environ "0.2.1"]
                  [compojure "1.1.5"]]
   :plugins [[lein-ring "0.8.5"]]
+  :main mqttitude-backend.server
   :ring {
 ;        :init
 ;        :destroy
